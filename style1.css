@@ -1,0 +1,471 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #F6F6F6;
+}
+
+.container {
+ 	margin: 0 auto;
+ 	width: 1500px;
+ 	height: 100%;
+ }
+
+.header {
+	height: 700px;
+	width: 100%;
+	background-color: #abeafa;
+}
+
+.logo {
+	height: 125px;
+	width: 125px;
+	margin-top: 24px;
+	margin-left: 234px;
+
+}
+
+
+.welcome {
+	margin: 201px 0 0 165px;
+	background-color: #fff51f;
+	width: 270px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.welcome h3 {
+	display: block;
+	font-family: Raleway;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+	margin-right:46px;
+	margin-left: 25px;
+	margin-top: 82px;
+}
+
+.welcome div {
+	font-family: Raleway;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: left;
+	margin: 24px 0 0 20px;
+}
+
+/*левый блок*/
+
+.aside {
+	/*background-color: #26d2fc;*/
+	width: 270px;
+	height: 475px;
+	float: left;
+	margin-left: 165px;
+	margin-top: -18px;
+}
+
+
+/* меню */
+
+#menu ul {
+    width: 270px;
+    background-color: #26d2fc;
+}
+
+#menu li {
+	width: 100%;
+    list-style-type: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+ }
+
+#menu a {
+	text-decoration: none;
+    color: #333;
+}
+
+#menu li:hover {
+    background-color: #333333;
+}
+
+#menu li:hover a{
+    color: rgb(255, 255, 255);
+}
+
+.aside2 {
+	background-color: #e0e0e0;
+	width: 270px;
+	height: 300px;
+	float: left;
+	clear: left;
+	margin-left: 165px;
+}
+
+.aside2 p {
+	margin: 129px 19px 73px 142px;
+	font-family: Raleway;
+	color: #333333;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: left;
+}
+
+.products {
+	background-color: #f8f8f8;
+	width: 870px;
+	height: 760px;
+	margin-left: 465px;
+	margin-top: -18px;
+	overflow: hidden;
+}
+
+h2 {
+	margin-top: 31px;
+	margin-left: 25px;
+	font-family: Roboto;
+	color:  #707070;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+}
+
+.product {
+	background-color:  #ffffff;
+	width: 270px;
+	height: 320px;
+	float: left;
+	margin-top: 30px;
+}
+
+.product_1 {
+	margin-right: 30px;
+}
+
+.product a {
+	text-decoration: none;
+	font-family: Roboto;
+	color:  #333333;
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 18.012px;
+	text-align: left;
+	margin-left: 24px;
+}
+
+.product p {
+	float: left;
+}
+
+.price a {
+	font-family: Roboto;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: right;
+	margin-left: 36px;
+}
+
+.product img {
+	margin: 10px 0 15px 10px;
+	background-color:  #eaeaea;
+	width: 250px;
+	height: 250px;
+}
+
+.products1 {
+	background-color: #f8f8f8;
+	width: 870px;
+	height: 400px;
+	margin-left: 465px;
+	overflow: hidden;
+}
+
+
+.brand {
+	background-color: #ffffff;
+	width: 1170px;
+	height: 160px;
+	margin-left: 165px;
+}
+
+.brand img {
+	margin-top: 70px;
+	margin-left: 14px;
+}
+
+.insta-head {
+
+	margin-left: 449px;
+}
+
+
+.insta {
+	background-color: #eaeaea;
+	width: 1170px;
+	height: 350px;
+	margin-left: 165px;
+	padding-top: 51px;
+}
+
+.insta-head img {
+	float: left;
+	padding-right: 8px;
+}
+
+.insta-head h4 {
+    font-family: Roboto;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+
+}
+
+.insta-head span {
+    font-family: Roboto;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+}
+
+.insta-pics {
+	margin-top: 26px;
+	text-align: center;
+}
+
+.insta-pics img {
+	width: 180px;
+	height: 180px;
+	border: 5px solid white;
+}
+
+.social {
+	width: 1170px;
+	margin-left: 165px;
+}
+
+
+.fb {
+	background-color: #3b5997;
+	width: 390px;
+	height: 150px;
+	float: left;
+
+}
+
+.tw {
+	background-color: #3fccfd;
+	width: 390px;
+	height: 150px;
+	float: left;
+
+}
+
+.pin {
+	background-color: #cb2027;
+	width: 390px;
+	height: 150px;
+	overflow: hidden;
+
+}
+
+.fb img {
+	margin: 44px 0 0 180px;
+}
+
+.tw img {
+	margin: 49px 0 0 163px;
+}
+
+.pin img {
+	margin: 43px 0 0 163px;
+}
+
+.footer {
+	background-color: #373737;
+	height: 348px;
+	padding-top: 75px;
+	color:  #ffffff;
+}
+
+.footer div {
+	float: left;
+}
+
+.footer li {
+    list-style: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.footer h3 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+	margin-bottom: 28px;
+}
+
+
+.category {
+	margin-left: 192px;
+	margin-right: 120px;
+}
+
+.account {
+	margin-right: 89px;
+}
+
+.support {
+	margin-right: 79px;
+}
+
+.newsletter {
+	margin-right: 46px;
+}
+
+.newsletter p {
+    width: 195px;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+
+
+.about .text {
+    width: 232px;
+    height: 85px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+
+.phone, .mail {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+.phone span {
+	margin-left: 18px;
+}
+
+.mail span {
+	margin-left: 19px;
+	color:  #faef03;
+}
+
+/*краткое описание*/
+
+.short {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+
+}
+
+/*подробное описание*/
+
+.long {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+/*список характеристик*/
+
+table {
+	border: solid black;
+}
+
+td {
+	border: solid black 0.5px;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.spisok {
+	border: 1px red solid;
+	background-color: #FFD500;
+	font-size: 18px;
+	font-weight: 600;
+	font-family:'Times New Roman';
+	text-align: center;
+	list-style-image: url(img/marker.ico);
+}
+
+/* картинки */
+
+.pic {
+	border: green solid 5px;
+}
+
+.pic:hover {
+	border: #f8f8f8 solid 5px;
+}
+
+/*контакты*/
+
+input {
+	height: 20px;
+	width: 150px;
+
+}
+
+
+.text1 {
+	font-family: Georgia;
+	font-weight: 300;
+	font-size: 14px;
+	background-color: black;
+}
+
+.text1:focus {
+	color: red;
+	background-color: white;
+}
+
+.text2 {
+	font-family: Georgia;
+	font-weight: 300;
+	font-size: 14px;
+	background-color: yellow;
+}
+
+.text2:focus {
+	color: pink;
+	background-color: white;
+}
+
+input, textarea {
+	text-transform: capitalize;
+}
